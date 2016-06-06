@@ -7,11 +7,11 @@ cls
 echo ³1³ New
 echo ³2³ More
 echo ³3³ Exit
-set /p number=
+set /p num=
 
-if %number% == 1 goto 1
-if %number% == 2 goto 2
-if %number% == 3 goto Exit
+if %num% == 1 goto 1
+if %num% == 2 goto 2
+if %num% == 3 goto Exit
 
 :1
 cls
@@ -21,9 +21,61 @@ echo Location:
 echo -----------
 echo ³1³ Desktop
 echo ³2³ Documents
-echo ³2³ Downloads
-echo ³3³ Music
-echo ³4³ Pictures
-echo ³5³ Videos
-echo ³6³ Other
+echo ³3³ Downloads
+echo ³4³ Music
+echo ³5³ Pictures
+echo ³6³ Videos
+echo ³7³ Other
+set /p num=
+if %num% == 1 goto sde
+if %num% == 2 goto sdo
+if %num% == 3 goto sdow
+if %num% == 4 goto sm
+if %num% == 5 goto sp
+if %num% == 6 goto sv
+if %num% == 7 goto so
 
+:sde
+set loc=desktop
+goto new
+
+:sdo
+set loc=documents
+goto new
+
+:sdow
+set loc=downloads
+goto new
+
+:sm
+set loc=music
+goto new
+
+:sp
+set loc=pictures
+goto new
+
+:sv
+set loc=videos
+goto new
+
+:so
+cls
+set /p loc=Location:
+goto new
+
+:new
+cls
+set /p na=Name:
+goto mnew
+
+:mnew
+cls
+set /p t=
+echo %t% >> %USERPROFILE%\%loc%\%na%.txt
+goto mnew2
+
+:mnew2
+set /p t=
+echo %t% >> %USERPROFILE%\%loc%\%na%.txt
+goto mnew2
