@@ -5,13 +5,11 @@ title ZWord 11 Open Source
 :home
 cls
 echo ³1³ New
-echo ³2³ More
-echo ³3³ Exit
+echo ³2³ Exit
 set /p num=
 
 if %num% == 1 goto 1
-if %num% == 2 goto 2
-if %num% == 3 goto Exit
+if %num% == 2 goto Exit
 
 :1
 cls
