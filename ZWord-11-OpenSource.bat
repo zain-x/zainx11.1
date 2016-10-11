@@ -4,15 +4,15 @@ title ZWord 11 Open Source
 
 :home
 cls
-echo ³1³ +
+echo ³1³ New
 echo ³2³ Exit
 set /p num=
+cls
 
 if %num% == 1 goto 1
 if %num% == 2 goto Exit
 
 :1
-cls
 set /p n=Name:
 cls
 echo Location:
@@ -66,6 +66,7 @@ goto newa
 cls
 
 :new
+title When Done, Exit
 set /p t=
 echo %t% >> %USERPROFILE%\%loc%\%n%.txt
 goto new
