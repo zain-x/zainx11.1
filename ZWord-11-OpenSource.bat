@@ -35,45 +35,37 @@ if %num% == 7 goto so
 
 :sde
 set loc=desktop
-goto new
+goto newa
 
 :sdo
 set loc=documents
-goto new
+goto newa
 
 :sdow
 set loc=downloads
-goto new
+goto newa
 
 :sm
 set loc=music
-goto new
+goto newa
 
 :sp
 set loc=pictures
-goto new
+goto newa
 
 :sv
 set loc=videos
-goto new
+goto newa
 
 :so
 cls
 set /p loc=Location:
-goto new
+goto newa
+
+:newa
+cls
 
 :new
-cls
-set /p na=Name:
-goto mnew
-
-:mnew
-cls
 set /p t=
-echo %t% >> %USERPROFILE%\%loc%\%na%.txt
-goto mnew2
-
-:mnew2
-set /p t=
-echo %t% >> %USERPROFILE%\%loc%\%na%.txt
-goto mnew2
+echo %t% >> %USERPROFILE%\%loc%\%n%.txt
+goto new
