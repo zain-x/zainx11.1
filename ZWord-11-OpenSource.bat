@@ -4,7 +4,7 @@ title ZWord 11 Open Source
 
 :home
 cls
-echo ³1³ New
+echo ³1³ +
 echo ³2³ Exit
 set /p num=
 
