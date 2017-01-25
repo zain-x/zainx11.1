@@ -39,6 +39,5 @@ goto m
 :c
 cls
 set /p q=Where? 
-if exist %USERPROFILE%\%l% goto m
 cls
-goto c
+goto m
