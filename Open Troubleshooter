@@ -2,8 +2,6 @@
 title Open Troubleshooter
 color f0
 
-REM Run this in Administrator Mode
-
 :home
 cls
 set /p tc=Troubleshooting Code:
