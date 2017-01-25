@@ -25,20 +25,22 @@ if %l% == 2 goto 1b
 if %l% == 3 goto c
 
 :1a
-set l=Desktop
+set q=Desktop
+cls
 goto m
 
 :1b
-set l=Documents
+set q=Documents
+cls
 
 :m
-cls
 set /p t=
-echo %t% >> %USERPROFILE%\%l%
+echo %t% >> %USERPROFILE%\%q%
 goto m
 
 :c
 cls
-set /p l=Where? 
+set /p q=Where? 
 if exist %USERPROFILE%\%l% goto m
+cls
 goto c
