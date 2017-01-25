@@ -1,5 +1,5 @@
 @echo off
-title ZSound 12 Open
+title ZSound Open
 color a0
 
 :h
