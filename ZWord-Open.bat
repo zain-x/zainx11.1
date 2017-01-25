@@ -5,12 +5,10 @@ color f0
 :home
 cls
 echo 1 New
-echo 2 More
-echo 3 Exit
+echo 2 Exit
 set /p n=
 if %n% == 1 goto 1
-if %n% == 2 goto 2
-if %n% == 3 Exit
+if %n% == 2 Exit
 
 :1
 cls
