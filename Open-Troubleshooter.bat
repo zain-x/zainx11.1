@@ -18,6 +18,7 @@ goto home
 
 :update
 cls
+del %USERPROFILE%\Desktop\Open-Troubleshooter.bat
 bitsadmin.exe /transfer "Open Troubleshooter Update" https://raw.githubusercontent.com/zain-x/zainxopensource/master/Open-Troubleshooter.bat %USERPROFILE%\Desktop\Open-Troubleshooter.bat
 
 :tc1
