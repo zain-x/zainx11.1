@@ -1,5 +1,5 @@
-# Zain X is a collection of programs similar to Microsoft Office, yet simpler and with less features because we've only been around since 2014.
-# Our programs have always cost $5.99+, however this project aims to make an open source version for every version of Zain X.
+# Zain X is a collection of programs similar to Microsoft Office, yet simpler and with less features because we've only been around since 2014. Unlike regular versions of Zain X, we are commited to creating Zain X programs both for free and with less features making them good for computers with little storage or with little processing power.
+# Our programs have always cost $5.99+, however this project aims to make a continuosly developing and changing, open source version.
 # Learn more at <a href="http://zainx.esy.es">zainx.esy.es</a>
 # ------------------------------------------
 # Versions:
