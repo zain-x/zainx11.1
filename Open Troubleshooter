@@ -12,50 +12,5 @@ goto home
 
 :tc1
 cls
-del %USERPROFILE%\Desktop\ZWord-Open.bat
-echo @echo off >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo title ZWord Open >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo color f0 >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :home >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo 1 New >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo 2 Exit >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set /p n= >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if %n% == 1 goto 1 >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if %n% == 2 Exit >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :1 >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set /p e=Name: >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo 1 Desktop >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo 2 Documents >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo 3 Custom >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set /p l= >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if %l% == 1 goto 1a >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if %l% == 2 goto 1b >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if %l% == 3 goto c >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :1a >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set q=Desktop >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo goto m >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :1b >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set q=Documents >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :m >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set /p t= >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo echo %t% > %USERPROFILE%\%q% >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo goto m >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo :c >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo set /p q=Where?  >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo if exist %USERPROFILE%\%l% goto m >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo cls >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo goto c >> %USERPROFILE%\Desktop\ZWord-Open.bat
-echo goto home >> %USERPROFILE%\Desktop\ZWord-Open.bat
+bitsadmin.exe /transfer "Open Troubleshooter Download" https://raw.githubusercontent.com/zain-x/zainxopensource/master/ZWord-Open.bat %USERPROFILE%\Desktop\ZWord-Open.bat
 goto home
