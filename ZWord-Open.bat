@@ -33,7 +33,7 @@ cls
 
 :m
 set /p t=
-echo %t% > %USERPROFILE%\%q%
+echo %t% > %USERPROFILE%\%q%\%e%.txt
 goto m
 
 :c
