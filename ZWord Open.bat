@@ -1,6 +1,10 @@
 @echo off
-title ZWord 12 Open
+title ZWord Open
 color f0
 
-:h
+:home
 cls
+echo 1 New
+echo 2 More
+echo 3 Exit
+set /p n=
