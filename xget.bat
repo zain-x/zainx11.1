@@ -1,5 +1,5 @@
 @echo off
-title xGet
+title xget
 color f0
 
 :home
@@ -12,7 +12,7 @@ goto home
 :c1
 cls
 del %USERPROFILE%\Desktop\ZWord-Open.bat
-bitsadmin.exe /transfer "xGet Download" https://raw.githubusercontent.com/zain-x/zainxopensource/master/ZWord-Open.bat %USERPROFILE%\Desktop\ZWord-Open.bat
+bitsadmin.exe /transfer "xget Download" https://raw.githubusercontent.com/zain-x/zainxopensource/master/ZWord-Open.bat %USERPROFILE%\Desktop\ZWord-Open.bat
 goto home
 
 :c2
