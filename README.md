@@ -4,8 +4,11 @@
 # ------------------------------------------
 # Versions:
 <p><b>Zain X 11.1 FREE</b> - Completed<br>
-<b>Zain X 12 Open</b> - Working On</p>
+<b>Zain X Open</b> - Ongoing</p>
 # ------------------------------------------
 # Please contact us if you would like to help by emailing <a href="mailto:support@zainx.esy.es">support@zainx.esy.es</a>.
 # ------------------------------------------
-# Update: Zain X 11.1 FREE is now available via <a href="https://zainx.ecwid.com/#!/Zain-X-11-1-FREE/p/73068550/category=21102108">this site</a>. We'll send you an installation file within 2 days if you order it. Also, when you install it, it will say in the customer agreement that you aren't allowed to edit it. That just means you aren't allowed to edit it on your computer, but if you want to edit or contribute to it here, by all means please do so! To contribute, email us.
+# Update (002): Zain X Open is now constantly being worked on rather than being completed for every version of Zain X and therefore develops seperately.
+--------------------------------------------
+# Update (001): Zain X 11.1 FREE is now available via <a href="https://zainx.ecwid.com/#!/Zain-X-11-1-FREE/p/73068550/category=21102108">this site</a>. We'll send you an installation file within 2 days if you order it. Also, when you install it, it will say in the customer agreement that you aren't allowed to edit it. That just means you aren't allowed to edit it on your computer, but if you want to edit or contribute to it here, by all means please do so! To contribute, email us.
+--------------------------------------------
