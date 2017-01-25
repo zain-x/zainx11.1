@@ -1,0 +1,24 @@
+@echo off
+title Open Troubleshooter
+color f0
+
+REM Run this in Administrator Mode
+
+:home
+cls
+set /p tc=Troubleshooting Code:
+if %tc% == 6527 goto tc1
+if %tc% == 5166 goto tc2
+if %tc% == 5326 goto tc3
+if %tc% == 3266 goto tc4
+goto home
+
+:tc1
+cls
+
+
+:tc2
+
+:tc3
+
+:tc4
