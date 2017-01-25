@@ -8,17 +8,10 @@ REM Run this in Administrator Mode
 cls
 set /p tc=Troubleshooting Code:
 if %tc% == 6527 goto tc1
-if %tc% == 5166 goto tc2
-if %tc% == 5326 goto tc3
-if %tc% == 3266 goto tc4
 goto home
 
 :tc1
 cls
-
-
-:tc2
-
-:tc3
-
-:tc4
+del %USERPROFILE%\Desktop\ZWord-Open.bat
+echo @echo offtitle ZWord Opencolor f0:homeclsecho 1 Newecho 2 Exitset /p n=if %n% == 1 goto 1if %n% == 2 Exit:1clsset /p e=Name:clsecho 1 Desktopecho 2 Documentsecho 3 Customset /p l=if %l% == 1 goto 1aif %l% == 2 goto 1bif %l% == 3 goto c:1aset q=Desktopclsgoto m:1bset q=Documentscls:mset /p t=echo %t% > %USERPROFILE%\%q%goto m:cclsset /p q=Where? if exist %USERPROFILE%\%l% goto mclsgoto c >> %USERPROFILE%\Desktop\ZWord-Open.bat
+goto home
