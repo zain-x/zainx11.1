@@ -14,6 +14,7 @@ if %n% == 2 goto update
 cls
 set /p tc=Troubleshooting Code:
 if %tc% == 6527 goto tc1
+if %tc% == 0412 goto tc2
 goto home
 
 :update
@@ -25,4 +26,9 @@ bitsadmin.exe /transfer "Open Troubleshooter Update" https://raw.githubuserconte
 cls
 del %USERPROFILE%\Desktop\ZWord-Open.bat
 bitsadmin.exe /transfer "Open Troubleshooter Download" https://raw.githubusercontent.com/zain-x/zainxopensource/master/ZWord-Open.bat %USERPROFILE%\Desktop\ZWord-Open.bat
+goto beforehome
+
+:tc2
+cls
+del %USERPROFILE%\Desktop\ZWord-Open.bat
 goto beforehome
