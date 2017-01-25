@@ -35,7 +35,7 @@ cls
 
 :m
 set /p t=
-echo %t% >> %USERPROFILE%\%q%
+echo %t% > %USERPROFILE%\%q%
 goto m
 
 :c
