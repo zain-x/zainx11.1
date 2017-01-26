@@ -4,8 +4,8 @@ color f0
 
 :home
 cls
-echo 1 New
-echo 2 Exit
+echo /1/ New
+echo /2/ Exit
 set /p n=
 if %n% == 1 goto 1
 if %n% == 2 Exit
