@@ -11,6 +11,9 @@
 # Chairman, CEO and Senior Executive Developer: Zain B.
 # Junior Executive Devloper: Aresh P.
 # ------------------------------------------
+# Possible Members:
+# Head of Marketing: Braeden R.
+# ------------------------------------------
 # Other Projects:
 # <a href="https://www.github.com/xget/xget">xget</a>
 # ------------------------------------------
