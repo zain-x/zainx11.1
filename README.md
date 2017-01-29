@@ -9,7 +9,7 @@
 # ------------------------------------------
 # Team:
 # Chairman, CEO and Senior Executive Developer: Zain B.
-# Junior Executive Devloper: Aresh P.
+# Junior Executive Developer: Aresh P.
 # POSSIBLE Head of Marketing: Braeden R.
 # ------------------------------------------
 # Other Projects:
