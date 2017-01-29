@@ -8,8 +8,8 @@
 <b>Zain X Open</b> - Ongoing</p>
 # ------------------------------------------
 # Team:
-# Chairman, CEO and Senior Executive Developer: Zain B.
-# Junior Executive Developer: Aresh P.
+# Chairman, CEO and Senior Executive Developer: Zain B. @zbu
+# Junior Executive Developer: Aresh P. @Mathtician
 # POSSIBLE Head of Marketing: Braeden R.
 # ------------------------------------------
 # Other Projects:
