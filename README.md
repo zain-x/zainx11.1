@@ -8,7 +8,7 @@
 <b>Zain X Open</b> - Ongoing</p>
 # ------------------------------------------
 # Team:
-# Chairman, CEO and Senior Executive Developer: Zain B. <a href="https://github.com/zbu">@zbu</a>
+# CEO and Senior Executive Developer: Zain B. <a href="https://github.com/zbu">@zbu</a>
 # Junior Executive Developer: Aresh P. <a href="https://github.com/mathtician">@mathtician</a>
 # [POSSIBLE] Head of Marketing: Braeden R.
 # ------------------------------------------
