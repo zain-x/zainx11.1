@@ -1,4 +1,4 @@
-@echo off
+
 title ZWord Open
 color f0
 
