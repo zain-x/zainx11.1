@@ -10,7 +10,7 @@
 # Team:
 # CEO and Senior Executive Developer: Zain B. <a href="https://github.com/zbu">@zbu</a>
 # Junior Executive Developer: Aresh P. <a href="https://github.com/mathtician">@mathtician</a>
-# [POSSIBLE] Head of Marketing: Braeden R.
+# Head of Marketing: Braeden R.
 # ------------------------------------------
 # Other Projects:
 # <a href="https://www.github.com/xget/xget">xget</a>
