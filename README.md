@@ -1,16 +1,16 @@
 # Zain X is a collection of programs similar to Microsoft Office, yet simpler and with less features because we've only been around since 2014. 
 # Unlike regular versions of Zain X, we are commited to creating Zain X programs both for free and with less features making them good for computers with little storage or with little processing power.
 # Our programs have always cost $5.99+, however this project aims to make a continuosly developing and changing, open source version.
-# Learn more at <a href="http://zainx.esy.es">zainx.esy.es</a>
+# Learn more at <a href="http://znx.one">znx.one</a>
 # ------------------------------------------
 # Versions:
 <p><b>Zain X 11.1 FREE</b> - Completed<br>
 <b>Zain X Open</b> - Ongoing</p>
 
 # Team:
-# CEO and Senior Executive Developer: Zain B. <a href="https://github.com/zbu">@zbu</a>
-# Junior Executive Developer: Aresh P. <a href="https://github.com/mathtician">@mathtician</a>
-# Head of Marketing: Braeden R.
+CEO and Senior Executive Developer: Zain B. <a href="https://github.com/zbu">@zbu</a><br>
+Junior Executive Developer: Aresh P. <a href="https://github.com/mathtician">@mathtician</a><br>
+Head of Marketing: Braeden R.
 # ------------------------------------------
 # Other Projects:
 # <a href="https://www.github.com/xget/xget">xget</a>
