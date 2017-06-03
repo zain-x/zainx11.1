@@ -15,7 +15,7 @@ Head of Marketing: Braeden R.
 # Other Projects:
 # <a href="https://www.github.com/xget/xget">xget</a>
 # ------------------------------------------
-# Please contact us if you would like to help by emailing <a href="mailto:support@zainx.esy.es">support@zainx.esy.es</a>.
+# Please contact us if you would like to help by emailing <a href="mailto:help@znx.one">help@znx.one</a>.
 # ------------------------------------------
 # Update (002): Zain X Open is now constantly being worked on rather than being completed for every version of Zain X and therefore develops seperately.
 --------------------------------------------
